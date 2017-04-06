@@ -4,12 +4,16 @@ html{
 
 * {
       letter-spacing:.5px;
-      font-family: "Asap", Helvetica, sans-serif;
+      font-family: 'Josefin Sans', sans-serif;
 
     }
 
     .text-section h2, h3, h6{
       color: #8b8b8b;
+    }
+
+    .text-section h2{
+      margin-bottom:30px;
     }
 
     body{
@@ -31,7 +35,7 @@ html{
     }
 
     .row.header{
-      padding-top:100px;
+      padding-top:50px;
       text-align:left;
     }
 
@@ -93,7 +97,11 @@ html{
 
     @media (max-width: 575px) {
       .section{
-        min-height:275px;
+        min-height:220px;
+      }
+
+      h2{
+        font-size:24px;
       }
     }
 
@@ -162,7 +170,7 @@ html{
       text-decoration: none;
       display:block;
       font-weight:500;
-      letter-spacing: 5px;
+      letter-spacing: 2px;
       border-bottom: 2px solid transparent;
       -webkit-transition: all 0.20s ease-in-out;
       -moz-transition: all 0.20s ease-in-out;
@@ -174,9 +182,9 @@ html{
       text-decoration: none;
       display:inline-block;
       font-weight:500;
-      letter-spacing: 5px;
+      letter-spacing: 2px;
       border-bottom: 2px solid transparent;
-      font-size:48px;
+      font-size:36px;
       -webkit-transition: all 0.20s ease-in-out;
       -moz-transition: all 0.20s ease-in-out;
       -ms-transition: all 0.20s ease-in-out;
@@ -205,12 +213,9 @@ html{
     }
 
     .img.project1{
-    max-width: 450px;
     width:100%;
     margin: 0 auto;
-    /*top: 100px;
-    position: relative;*/
-    padding:0 30 0;
+
     position: absolute;
     top: 50%;
     left: 50%;
@@ -356,16 +361,15 @@ html{
     .header-text{
       max-width:1000px;
       letter-spacing:1px;
-      text-transform:uppercase;
       margin:0 auto;
-      font-size:1.6em;
+      font-size:1.4em;
       line-height:1.5;
       padding: 0 25 0;
     }
 
     @media (max-width: 768px) {
       .header-text{
-        font-size:1em;
+        font-size:1.2em;
         padding:0 10 0;
       }
     }
@@ -526,7 +530,7 @@ html{
       margin:0 auto;
       text-align: center;
       /*background-color:#f6f6f6;*/
-      min-height:550px;
+      min-height:500px;
       width:90%;
   }
 
@@ -582,7 +586,9 @@ html{
 
   .typography-bg{
     background-color:#9cbed3;
-    background: url(https://s3.amazonaws.com/ahong-portfolio-images/drowning-robot-01.png) center center no-repeat;
+    background: url(https://s3.amazonaws.com/ahong-portfolio-images/cp-chelsea.png) center center no-repeat;
+        background-size:cover;
+
   }
 
   .welcome-row{
