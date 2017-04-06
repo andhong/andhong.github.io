@@ -169,7 +169,7 @@ html{
     .project-name.test{
       text-decoration: none;
       display:block;
-      font-weight:700;
+      font-weight:500;
       letter-spacing: 2px;
       border-bottom: 2px solid transparent;
       -webkit-transition: all 0.20s ease-in-out;
@@ -185,6 +185,7 @@ html{
       letter-spacing: 2px;
       border-bottom: 2px solid transparent;
       font-size:36px;
+      margin-top:10px;
       -webkit-transition: all 0.20s ease-in-out;
       -moz-transition: all 0.20s ease-in-out;
       -ms-transition: all 0.20s ease-in-out;
@@ -469,7 +470,7 @@ html{
       text-align:center;
       position:relative;
       /*top:-70px;*/
-      text-decoration: underline;
+      /*text-decoration: underline;*/
     }
 
     .project-page.description {
