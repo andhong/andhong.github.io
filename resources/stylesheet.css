@@ -169,7 +169,7 @@ html{
     .project-name.test{
       text-decoration: none;
       display:block;
-      font-weight:500;
+      font-weight:700;
       letter-spacing: 2px;
       border-bottom: 2px solid transparent;
       -webkit-transition: all 0.20s ease-in-out;
@@ -181,7 +181,7 @@ html{
     .project-name.header{
       text-decoration: none;
       display:inline-block;
-      font-weight:500;
+      font-weight:700;
       letter-spacing: 2px;
       border-bottom: 2px solid transparent;
       font-size:36px;
