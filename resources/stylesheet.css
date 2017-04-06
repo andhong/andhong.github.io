@@ -464,7 +464,7 @@ html{
 
     .project-page-name {
       text-transform: uppercase;
-      letter-spacing:4px;
+      letter-spacing:2px;
       font-weight:700;
       text-align:center;
       position:relative;
@@ -665,6 +665,10 @@ html{
       }
       .project-name.header{
         font-size:24px;
+      }
+
+      .project-page-name  {
+        font-size:28px;
       }
     }
 
