@@ -16,6 +16,10 @@ html{
       margin-bottom:30px;
     }
 
+    .body-link{
+      text-decoration:underline;
+    }
+    
     body{
       font-size:1.125rem;
       line-height:2rem;
