@@ -16,10 +16,7 @@ html{
       margin-bottom:30px;
     }
 
-    .body-link{
-      text-decoration:underline;
-    }
-    
+
     body{
       font-size:1.125rem;
       line-height:2rem;
@@ -55,6 +52,10 @@ html{
     .container-fluid{
       padding-left:0;
       padding-right:0;
+    }
+
+    .body-link{
+      text-decoration: underline;
     }
 
     @media (max-width: 575px) {
